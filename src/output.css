@@ -593,6 +593,9 @@
   .z-10 {
     z-index: 10;
   }
+  .z-20 {
+    z-index: 20;
+  }
   .z-auto {
     z-index: auto;
   }
@@ -725,6 +728,27 @@
   .my-28 {
     margin-block: calc(var(--spacing) * 28);
   }
+  .my-\[64px\] {
+    margin-block: 64px;
+  }
+  .my-\[164px\] {
+    margin-block: 164px;
+  }
+  .my-\[16px\] {
+    margin-block: 16px;
+  }
+  .my-\[264px\] {
+    margin-block: 264px;
+  }
+  .my-\[274px\] {
+    margin-block: 274px;
+  }
+  .my-\[328px\] {
+    margin-block: 328px;
+  }
+  .my-\[px\] {
+    margin-block: px;
+  }
   .my-auto {
     margin-block: auto;
   }
@@ -745,6 +769,9 @@
   }
   .mt-\[72px\] {
     margin-top: 72px;
+  }
+  .mt-\[110px\] {
+    margin-top: 110px;
   }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
@@ -863,6 +890,9 @@
   .h-\[21px\] {
     height: 21px;
   }
+  .h-\[29px\] {
+    height: 29px;
+  }
   .h-\[59px\] {
     height: 59px;
   }
@@ -874,9 +904,6 @@
   }
   .h-\[205px\] {
     height: 205px;
-  }
-  .h-\[29px\] {
-    height: 29px;
   }
   .h-\[228px\] {
     height: 228px;
@@ -1837,6 +1864,9 @@
   .pt-\[76px\] {
     padding-top: 76px;
   }
+  .pt-\[110px\] {
+    padding-top: 110px;
+  }
   .text-center {
     text-align: center;
   }
@@ -2168,6 +2198,18 @@
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+  .shadow-lg {
+    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-md {
+    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-sm {
+    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
   .shadow-initial {
     --tw-shadow-color: initial;
   }
@@ -2203,6 +2245,14 @@
   }
   .drop-shadow-none {
     --tw-drop-shadow:  ;
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .drop-shadow-sm {
+    --tw-drop-shadow: drop-shadow(var(--drop-shadow-sm));
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .drop-shadow-xs {
+    --tw-drop-shadow: drop-shadow(var(--drop-shadow-xs));
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
   .grayscale {
@@ -2467,6 +2517,11 @@
       }
     }
   }
+  .sm\:m-\[456px\] {
+    @media (width >= 40rem) {
+      margin: 456px;
+    }
+  }
   .sm\:mx-0 {
     @media (width >= 40rem) {
       margin-inline: calc(var(--spacing) * 0);
@@ -2477,9 +2532,54 @@
       margin-block: calc(var(--spacing) * 28);
     }
   }
+  .sm\:my-\[38px\] {
+    @media (width >= 40rem) {
+      margin-block: 38px;
+    }
+  }
+  .sm\:my-\[220px\] {
+    @media (width >= 40rem) {
+      margin-block: 220px;
+    }
+  }
+  .sm\:my-\[228px\] {
+    @media (width >= 40rem) {
+      margin-block: 228px;
+    }
+  }
+  .sm\:my-\[2px\] {
+    @media (width >= 40rem) {
+      margin-block: 2px;
+    }
+  }
+  .sm\:my-\[328px\] {
+    @media (width >= 40rem) {
+      margin-block: 328px;
+    }
+  }
+  .sm\:my-\[338px\] {
+    @media (width >= 40rem) {
+      margin-block: 338px;
+    }
+  }
+  .sm\:my-\[456px\] {
+    @media (width >= 40rem) {
+      margin-block: 456px;
+    }
+  }
+  .sm\:my-\[px\] {
+    @media (width >= 40rem) {
+      margin-block: px;
+    }
+  }
   .sm\:mt-\[72px\] {
     @media (width >= 40rem) {
       margin-top: 72px;
+    }
+  }
+  .sm\:mt-\[456px\] {
+    @media (width >= 40rem) {
+      margin-top: 456px;
     }
   }
   .sm\:h-14 {
