@@ -10,3 +10,9 @@
         </div>
       
         <div class="md:flex lg:flex"></div>
+        border-[#212326] text-[#212326]
+        <button class="border-2 rounded-full w-36 h-14 font-semibold border-[#212326] text-[#212326] md:mr-10">
+          Enroll today
+        </button>
+
+       ytiylhulukyyku
