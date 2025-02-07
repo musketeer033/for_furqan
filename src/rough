@@ -10,3 +10,65 @@
         </div>
       
         <div class="md:flex lg:flex"></div>
+        border-[#212326] text-[#212326]
+        <button class="border-2 rounded-full w-36 h-14 font-semibold border-[#212326] text-[#212326] md:mr-10">
+          Enroll today
+        </button>
+
+       ytiylhulukyyku
+       class="bg-[#18161f] text-[#f1f0f4] w-[454px] text-sm font-semibold h-12 rounded-sm "
+       <div class="flex justify-center items-center min-h-screen px-4">
+        <div class="w-full max-w-md bg-white p-6 shadow-lg rounded-lg">
+          <h1 class="text-xl font-semibold mb-6 text-center">Sign up to enroll</h1>
+      
+          <h2 class="text-lg font-semibold mb-4">Account info</h2>
+      
+          <div class="w-full">
+            <label class="text-sm font-semibold block mb-2" for="myemail">Email*</label>
+            <input class="border h-10 w-full border-gray-300 rounded-sm p-3 focus:ring-2 focus:ring-blue-500 outline-none" 
+              required type="email" name="myemail" id="myemail" placeholder="Email">
+          </div>  
+      
+          <div class="w-full mt-4">
+            <label class="text-sm font-semibold block mb-2" for="myname">First name*</label>
+            <input class="border w-full h-10 border-gray-300 rounded-sm p-3 focus:ring-2 focus:ring-blue-500 outline-none" 
+              required type="text" name="myname" id="myname" placeholder="First name">
+          </div>
+      
+          <div class="w-full mt-4">
+            <label class="text-sm font-semibold block mb-2" for="myname2">Last name*</label>
+            <input class="border w-full h-10 border-gray-300 rounded-sm p-3 focus:ring-2 focus:ring-blue-500 outline-none" 
+              required type="text" name="myname2" id="myname2" placeholder="Last name">
+          </div>
+      
+          <input class="bg-[#18161f] text-white w-full text-sm font-semibold h-12 rounded-sm mt-6 hover:bg-gray-900 transition-all cursor-pointer" 
+            type="submit" value="Sign in">
+        </div>
+      </div>
+      <div class="flex pt-[227px] h-screen ml-32">
+        <div>
+          <h1 class="text-xl leading-5 font-semibold mb-10 "> Sign up to enroll </h1>
+          <div class="">
+          </div>
+          <div class=" flex flex-col gap-4 max ">
+            <h2 class="text-lg font-semibold ">Account info</h2>
+            <div class="w-full max-w-md">
+              <label class="text-sm font-semibold ml-1 mb-2 block" for="myemail">Email*</label>
+              <input class="border h-10 w-full border-[#caccd6] rounded-sm p-3" required type="email" name="myemail"
+                id="myemail" placeholder="Email">
+            </div>          
+            <div>
+              <label class="text-sm font-semibold ml-1 mb-2 " for="myname">First name*</label>
+              <input class=" border w-full h-10 border-[#caccd6] rounded-sm p-3" required type="text" name="myname"
+                id="myname" placeholder="First name">
+            </div>
+            <div>
+              <label class="text-sm font-semibold ml-1 mb-2 " for="myname2">Last name*</label>
+              <input class=" border w-full h-10 border-[#caccd6] rounded-sm p-3" required type="text" name="myname2"
+                id="myname2" placeholder="Last name">
+            </div>
+             <input class="bg-[#18161f] text-[#f1f0f4] w-full text-sm font-semibold h-12 rounded-sm " type="submit" value="Sign in">
+          </div>
+        </div>
+      </div>
+      
